@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="global.css">
+    <script src="global.js"></script>
+</head>
+<body>
+    <section class="payment-form">
+        
+        <h3 id="selectedService"></h3>
+        <form id="paymentForm">
+            <section class="payment-form">
+                <h2>Payment</h2>
+                <form id="paymentForm">
+                    <div class="form-group">
+                        <label for="serviceSelect">Select Service:</label>
+                        <select id="serviceSelect" name="service">
+                            <option value="Web Design">Web Design - $100</option>
+                            <option value="Python Projects">Python Projects - $50</option>
+                            <option value="C++ Projects">C++ Projects - $70</option>
+                          
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        
+                        <label for="cardNumber">Card Number</label>
+                        <input type="text" id="cardNumber" name="cardNumber" placeholder="Enter card number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="expiryDate">Expiry Date</label>
+                        <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="cvv">CVV</label>
+                        <input type="text" id="cvv" name="cvv" placeholder="CVV" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="nameOnCard">Name on Card</label>
+                        <input type="text" id="nameOnCard" name="nameOnCard" placeholder="Enter name" required>
+                    </div>
+                    <button type="submit">Pay Now</button>
+                </form>
+            </section>
+            
+        </form>
+    </section>
+   
+</body>
+</html>

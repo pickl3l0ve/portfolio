@@ -1,0 +1,344 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+nav ul li a :active{
+    box-shadow:0 0 5px 8px #333;
+    font-size: 16px;
+    background-color: #333;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.profile-card {
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+.profile-card img {
+    width: 200px;
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
+
+
+section {
+    margin: 20px;
+}
+
+
+.projects {
+    text-align: center;
+}
+
+
+.services {
+    text-align: center;
+}
+
+.payment-form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.contact {
+    text-align: center;
+}
+
+.payment-form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.payment-form form {
+    display: inline-block;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #444;
+}
+.payment-form {
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(151, 151, 151, 0.1); 
+}
+
+.service-card {
+    background-color: #222222;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px); 
+    transform:translateX(10px);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); 
+}
+.profile-image {
+    width: 10%; 
+    border-radius: 10%;
+}
+
+.contact {
+    text-align: center;
+    padding-bottom: 50px; 
+}
+
+.social-icons {
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    direction: row;
+}
+
+.icon-text {
+    margin: 0 20px; 
+    text-align: center; 
+}
+
+.icon-text .icon {
+   color:white;
+    font-size: 24px;
+}
+
+.icon-text p {
+    margin-top: 5px; 
+}
+.line{
+    width: 50%;
+}
+.text-container {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.text-container.appear {
+    opacity: 1;
+}
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: calc(50% - 40px);
+    max-width: 300px; 
+    text-align: center;
+}
+
+.project-card.python {
+    margin-right: 20px; 
+}
+
+.project-card.cpp {
+    margin-left: 20px; 
+}
+
+.project-image {
+    width: 50%; 
+    transform: translateY(-50px);
+    border-radius: 10%;
+}
+
+.project-card h3 {
+    color: #333;
+    margin-top: 20px; 
+}
+
+.project-card p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.download-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.download-link:hover {
+    background-color: #0056b3;
+}
+
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.project-card {
+    background-color: #272727;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: calc(50% - 40px); 
+    max-width: 300px; 
+    text-align: center;
+}
+
+.project-card.python {
+    margin-right: 20px; 
+}
+
+
+.project-card h3 {
+    color: #e4dfdf;
+    margin-top: 20px; 
+}
+
+.project-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project-list li {
+    margin-bottom: 10px;
+}
+
+.project-list li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.project-list li a:hover {
+    text-decoration: underline;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container {
+    max-width: 80%;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.left {
+    text-align:  left;
+}
+
+.right {
+    text-align: 50% right;
+}
+.paymentBody{
+    text-align: center;
+    box-shadow: 0 0 5px 8px rgb(54, 54, 54);
+    width: 80%;
+    margin: auto;
+    transform: translateY(300px);
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    
+}
+
+nav ul li a.active {
+    text-decoration: underline;
+    
+    font-size: 20px;
+}
+nav ul li a:hover{
+    transform: translateY(10px);
+
+}
