@@ -264,9 +264,16 @@ button[type="submit"]:hover {
     text-align: center;
 }
 
+
 .project-card.python {
     margin-right: 20px; 
 }
+
+.project-card.cpp {
+    margin-left: 20px; 
+}
+
+
 
 
 .project-card h3 {
